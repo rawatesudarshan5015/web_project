@@ -1,0 +1,104 @@
+
+/* ul a{ 
+    text-decoration: none;
+}
+
+li{
+    justify-content: end;
+} */
+
+#Hero {
+  height: 600px;
+  background-image: url(/Travel-goals/images/beautiful_sunrise_view_reflection_on_water_pier_wood_dock_above_water_beach_sand_hd_nature-1920x1080.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#hero-contain {
+  width: 900px;
+  background-color: rgba(35, 31, 31, 0.8);
+  padding: 50px;
+  box-shadow: 2px 4px 8px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+}
+
+#hero-contain h1 {
+  color: aliceblue;
+  font-family: monospace;
+  text-transform: uppercase;
+  font-size: 52px;
+  font-weight: 300;
+  margin: 0;
+}
+
+#hero-contain p {
+  color: aliceblue;
+  font-family: monospace;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 32px;
+}
+
+#hero-contain a {
+  background-color: yellow;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 12px 24px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#hero-contain a:hover {
+  background-color: rgb(156, 156, 64);
+  color: rgb(30, 25, 25);
+}
+
+#Destinations {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: auto;
+  /* padding: 0; */
+}
+#Highlight{
+  margin: 0;
+  background: linear-gradient(0deg,rgba(209, 211, 155, 0.785),rgb(218, 210, 76));
+}
+#Highlight h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(27, 35, 38);
+  margin: 0;
+  padding: 24px;
+}
+
+ul{
+  list-style: none;
+}
+.Destination {
+  margin: 0 20px;
+  text-decoration: none;
+}
+.Destination p{
+  text-align: center;
+  font-size: 24px;
+  color: rgb(41, 31, 31);
+  margin: 20px 0;
+}
+.Destination strong{
+  color: rgb(0,160,167);
+}
+.Destination img{
+  height: 250px;
+  width: 100% ;
+  box-shadow: 2px 4px 8px rgb(44, 43, 43);
+  border-radius: 10px;
+  object-fit: cover;
+} 
